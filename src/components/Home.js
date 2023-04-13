@@ -16,10 +16,9 @@ const Home = () => {
             i'm a fullstack developer
           </h2>
           <p className="py-4 text-gray-500 max-w-md capitalize">
-            Magna voluptate enim aliqua nisi. Commodo est irure velit qui mollit
-            dolor dolore minim nisi. Lorem laborum cupidatat dolore sunt duis
-            tempor ea. Dolor nostrud et reprehenderit duis ad cupidatat quis ex
-            aute et dolore deserunt veniam aliquip.
+            I'm a 2021 BCA graduate currently pursuing a master's degree in
+            computer science. My skills include Python programming,Django,
+            ReactJS, OOPS, HTML, CSS, Mongodb, Git, Github,
           </p>
           <div>
             <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r  from-cyan-500 to-blue-500 cursor-pointer">
