@@ -1,7 +1,8 @@
 import React from "react";
 import Heroimg from "../assets/pose_43.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { FaFacebook, FaInstagram, FaGithubAlt } from "react-icons/fa";
+import { FaInstagram, FaGithubAlt } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
 
 const Home = () => {
   return (
@@ -22,22 +23,28 @@ const Home = () => {
           </p>
           <div>
             <button className=" group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r  from-cyan-500 to-blue-500 cursor-pointer">
-              Resume
-              <span className="group-hover:rotate-90 duration-300">
+              <a
+                href="https://drive.google.com/file/d/1fAevG4bTt3f3BHCA3GhPMkZG2ZZxX5l7/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
+              <span className="group-hover:rotate-90 duration-300 ">
                 <MdKeyboardArrowRight className="ml-1" />
               </span>
             </button>
           </div>
           <div className="bg-transparent flex justify-start mt-5 cursor-pointer">
             <a
-              href="https://www.facebook.com/"
+              href="https://www.linkedin.com/in/pawansuthar1537/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaFacebook size={30} className="text-blue-700 text-xl mr-5" />
+              <BsLinkedin size={30} className="text-blue-700 text-xl mr-5" />
             </a>
             <a
-              href="https://twitter.com/"
+              href="https://github.com/pawan-suthar"
               target="_blank"
               rel="noopener noreferrer"
             >

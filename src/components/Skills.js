@@ -4,16 +4,14 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 via-black to-black w-full text-white h-screen md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-screen md:h-screen"
     >
       <div className="container flex flex-row justify-center items-center">
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center justify-items-center w-full">
           <div className="pb-4 pt-24 ">
-            <p className="text-4xl font-bold border-b-4 border-gray-500 pb-2">
-              Skills
-            </p>
+            <p className="text-4xl font-bold  pb-2">Skills</p>
           </div>
-          <div className="flex flex-wrap justify-evenly">
+          <div className="flex flex-wrap justify-evenly mt-28">
             <img
               className="my-2 mr-5 h-28 w-28 rounded-full max-w-xs "
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"

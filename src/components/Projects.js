@@ -1,9 +1,10 @@
 import React from "react";
 import pblog from "../assets/portfolio/pblog.png";
 // import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import fluterfresh from "../assets/portfolio/flutterfresh.png";
 import jobmatchup from "../assets/portfolio/jobmatchup.png";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+
+import gym from "../assets/portfolio/gym.png";
 
 import { FaGithubAlt } from "react-icons/fa";
 import { TiLink } from "react-icons/ti";
@@ -30,38 +31,39 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: navbar,
-      title: "famework",
-      demo: "link",
-      github: "link",
-      hashtag: "#python #tech",
-      desc: "With this application, the admin can easily post blogs and manage them according to categories they create. Users can access all the blogs and filter them based on categories, ensuring they can easily find the content they're interested in.",
+      src: gym,
+      title: "Aarogyam",
+      demo: "https://sutharpawan1537.pythonanywhere.com/",
+      github: "https://github.com/pawan-suthar/aarogyam-gym-project",
+      hashtag: "#python #bootstrap #Django",
+      desc: `This is a Gym website Arogyam I made using a free bootstrap template with backend functionality by Django
+      
+      
+    features login signup user authorization enrolling apply attendance see all info of your daily workout add trainers , add plans`,
     },
     {
       id: 4,
-      src: reactSmooth,
-      title: "famework",
-      demo: "link",
-      github: "link",
-      hashtag: "#python #tech",
-      desc: "With this application, the admin can easily post blogs and manage them according to categories they create. Users can access all the blogs and filter them based on categories, ensuring they can easily find the content they're interested in.",
+      src: fluterfresh,
+      title: "flutterfresh",
+      demo: "https://www.linkedin.com/posts/pawansuthar1537_flutterfresh-flutter-mobileappdevelopment-activity-7046165824553771008-tRCL?utm_source=share&utm_medium=member_desktop",
+      github: "https://github.com/pawan-suthar/foodpp-flutter",
+      hashtag: "#flutter #dart",
+      desc: "Flutter its a grocery app built using Flutter. With FlutterFresh, you can easily add and delete fruits, vegetables, and other grocery items to your list.One of the key features of this app is the Google Authentication login, which I have seamlessly integrated using Firebase.  users can quickly and securely log in to the app using their Google account.",
     },
   ];
 
   return (
     <div
       name="projects"
-      className="bg-gradient-to-b from-black via-gra to-gray-800 w-full text-white h-screen md:h-screen"
+      className="bg-gradient-to-b from-gray-800 via-gra to-black text-white min-h-screen flex flex-col"
     >
-      <div className="container flex justify-center items-center">
-        <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center justify-items-center w-full">
-          <div className="pb-4 pt-24 ">
-            <p className="text-4xl font-bold border-b-4 border-gray-500 pb-2">
-              Projects
-            </p>
+      <div className="container flex-1 px-4 py-8 mx-auto">
+        <div className="max-w-screen-lg mx-auto">
+          <div className="pb-4 pt-12 md:pt-24">
+            <p className="text-4xl font-bold pb-2">Projects</p>
           </div>
 
-          <div className="p-5 grid sm:grid-cols-2 md:grid-cols-4 gap-8 flex-row justify-start">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {portfolios.map(
               ({ id, src, title, demo, github, hashtag, desc }) => (
                 <div
