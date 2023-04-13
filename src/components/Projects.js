@@ -3,6 +3,7 @@ import pblog from "../assets/portfolio/pblog.png";
 // import installNode from "../assets/portfolio/installNode.jpg";
 import fluterfresh from "../assets/portfolio/flutterfresh.png";
 import jobmatchup from "../assets/portfolio/jobmatchup.png";
+import portfo from "../assets/portfolio/portfolio.png";
 
 import gym from "../assets/portfolio/gym.png";
 
@@ -13,6 +14,15 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: portfo,
+      title: "Portfolio",
+      demo: "https://my-react-portfolio-8yo9.onrender.com/",
+      github: " https://github.com/pawan-suthar?tab=repositories",
+      hashtag: "#react #tailwind",
+      desc: "portfolio website using react and tailwind css",
+    },
+    {
+      id: 2,
       src: pblog,
       title: "Pblogs",
       demo: "https://pawansuthar.pythonanywhere.com/",
@@ -21,7 +31,7 @@ const Portfolio = () => {
       desc: "With this application, the admin can easily post blogs and manage them according to categories they create. Users can access all the blogs and filter them based on categories, ensuring they can easily find the content they're interested in.",
     },
     {
-      id: 2,
+      id: 3,
       src: jobmatchup,
       title: "JobMatchup",
       demo: "https://jobb.pythonanywhere.com/",
@@ -30,7 +40,7 @@ const Portfolio = () => {
       desc: "JobMatchup is a user-friendly HR portal built with Python and the Django framework that allows HR professionals to post job openings with detailed descriptions, and job seekers to apply for jobs by upload their resumes with details. ",
     },
     {
-      id: 3,
+      id: 4,
       src: gym,
       title: "Aarogyam",
       demo: "https://sutharpawan1537.pythonanywhere.com/",
@@ -42,7 +52,7 @@ const Portfolio = () => {
     features login signup user authorization enrolling apply attendance see all info of your daily workout add trainers , add plans`,
     },
     {
-      id: 4,
+      id: 5,
       src: fluterfresh,
       title: "flutterfresh",
       demo: "https://www.linkedin.com/posts/pawansuthar1537_flutterfresh-flutter-mobileappdevelopment-activity-7046165824553771008-tRCL?utm_source=share&utm_medium=member_desktop",
